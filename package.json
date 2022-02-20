@@ -1,0 +1,25 @@
+{
+  "name": "cypress-pom",
+  "version": "1.0.0",
+  "description": "cypress testing with Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "cy:open":"cypress open",
+    "cy:run":"cypress run",
+    "cy:update-snapshots":"cypress run --env updateSnapshots=true"
+  },
+  "keywords": [
+    "automation",
+    "coding",
+    "test",
+    "Javascript",
+    "Cypress"
+  ],
+  "author": "Alfa",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.0",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^2.5.1"
+  }
+}
